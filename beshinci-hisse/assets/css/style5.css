@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* DEKTOP wrapper5 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper5 {
+    width: 1440px;
+    height: 780px;
+    background-color: #EFEFEF;
+    margin: auto;
+}
+
+.wrapper5 header h2 {
+    display: inline-block;
+    width: 987px;
+    height: 93px;
+    margin-top: 91px;
+    margin-left: 122px;
+    margin-bottom: 34px;
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    line-height: 55.76px;
+}
+
+.wrapper5 .card {
+    width: 791px;
+    height: 451px;
+    margin-left: 126px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 25px -10px;
+}
+.wrapper5 .card p {
+    display: inline-block;
+    width: 700px;
+    height: 203px;
+    margin-top: 40px;
+    margin-left: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 30px;
+}
+.wrapper5 .card .card-row {
+    display: flex;
+    margin-left: 26px;
+}
+
+.wrapper5 .card .card-row .left {
+    margin-top: 10px;
+}
+.wrapper5 .card .card-row .right {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.wrapper5 .card .card-row .right h3 {
+    width: 353px;
+    height: 59px;
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    line-height: 30.42px;
+}
+
+/* TABLET wrapper5 */
+@media screen and (min-width: 600px) and (max-width: 991.98px) {
+    .wrapper5 {
+        width: 834px;
+        height: 451.75px;
+    }
+    .wrapper5 header h2 {
+        width: 571.64px;
+        height: 53.86px;
+        margin-top: 52.7px;
+        margin-left: 70.66px;
+        margin-bottom: 19.69px;
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    .wrapper5 .card {
+        width: 458.12px;
+        height: 261.2px;
+        margin-left: 72.97px;
+        border-radius: 17.38px;
+        box-shadow: 0px 0px 25px -10px;
+    }
+    .wrapper5 .card p {
+        width: 405.42px;
+        height: 117.57px;
+        margin-top: 23.17px;
+        margin-left: 26.06px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .wrapper5 .card .card-row {
+        margin-left: 15.06px;
+    }
+    .wrapper5 .card .card-row .left img {
+        width: 110.04px;
+        height: 97.88px;
+    }
+    .wrapper5 .card .card-row .left {
+        margin-top: 5.79px;
+    }
+    .wrapper5 .card .card-row .right {
+        margin-top: 28.96px;
+        margin-left: 17.38px;
+    }
+    .wrapper5 .card .card-row .right h3 {
+        width: 204.45px;
+        height: 34.17px;
+        font-size: 17px;
+        line-height: 17.24px;
+    }
+    .wrapper5 .card .card-row .right img {
+        width: 18.53px;
+        height: 17.95px;
+    }
+}
+
+/* MOBILE wrapper5 */
+@media screen and (max-width: 599.98px) {
+    .wrapper5 {
+        width: 376px;
+        height: 423px;
+    }
+    .wrapper5 header h2 {
+        width: 257px;
+        height: 69px;
+        margin-top: 42px;
+        margin-left: 36px;
+        margin-bottom: 11px;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    .wrapper5 .card {
+        width: 308px;
+        height: 248px;
+        margin-left: 36px;
+        border-radius: 13.98px;
+        box-shadow: 0px 0px 20px -10px;
+    }
+    .wrapper5 .card p {
+        width: 266px;
+        height: 111.01px;
+        margin-top: 18.47px;
+        margin-left: 21px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .wrapper5 .card .card-row {
+        margin-left: 21px;
+    }
+    .wrapper5 .card .card-row .left img {
+        width: 80px;
+        height: 84px;
+    }
+    .wrapper5 .card .card-row .left {
+        margin-top: 21.52px;
+    }
+    .wrapper5 .card .card-row .right {
+        margin-top: 39.06px;
+        margin-left: 13.63px;
+    }
+    .wrapper5 .card .card-row .right h3 {
+        width: 164.49px;
+        height: 32.73px;
+        font-size: 14px;
+        line-height: 14.19px;
+    }
+    .wrapper5 .card .card-row .right img {
+        width: 14.91px;
+        height: 17.2px;
+    }
+}

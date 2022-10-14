@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* DESKTOP wrapper4 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper4 {
+    width: 1440px;
+    margin: auto;
+}
+
+.wrapper4 header h2 {
+    margin-left: 121px;
+    margin-bottom: 95px;
+    width: 905px;
+    height: 93px;
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    line-height: 55.76px;
+}
+
+.wrapper4 .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 85px;
+    margin-left: 84px;
+    margin-bottom: 121px;
+    grid-gap: 60px;
+}
+
+.wrapper4 .grid-container img {
+    width: 410px;
+    height: 338px;
+    margin: -14px;
+}
+
+/* TABLET wrapper4 */
+@media screen and (min-width: 600px) and (max-width: 991.98px) {
+    .wrapper4 {
+        width: 834px;
+    }
+
+    .wrapper4 header h2 {
+        margin-left: 70.08px;
+        margin-bottom: 55.02px;
+        width: 524.15px;
+        height: 53.86px;
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+
+    .wrapper4 .grid-container {
+        margin-right: 49.23px;
+        margin-left: 48.65px;
+        margin-bottom: 52.6px;
+        grid-gap: 32px;
+    }
+
+    .wrapper4 .grid-container img {
+        width: 239px;
+        height: 199px;
+        margin: -8px;
+    }
+}
+
+/* MOBILE wrapper4 */
+@media screen and (max-width: 599.98px) {
+    .wrapper4 {
+        width: 375px;
+    }
+
+    .wrapper4 header h2 {
+        margin-left: 34px;
+        margin-bottom: 35.66px;
+        width: 300px;
+        height: 43.34px;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+
+    .wrapper4 .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 24.16px;
+        margin-right: 94.08px;
+        margin-left: 95px;
+        margin-bottom: 47.16px;
+    }
+
+    .wrapper4 .grid-container img {
+        width: 200px;
+        height: 167px;
+        margin: -7px;
+    }
+}

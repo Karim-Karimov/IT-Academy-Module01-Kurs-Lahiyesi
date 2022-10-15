@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* DEKTOP footer */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    width: 1440px;
+    height: 390px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    font-family: Roboto;
+}
+
+footer .row-foot {
+    display: flex;
+}
+
+footer .row-foot .left {
+    margin-top: 50px;
+    margin-left: 122px;
+}
+
+footer .row-foot .left #logo-footer {
+    margin-bottom: 30px;
+}
+
+footer .row-foot .left .left-row img {
+    margin-right: 17px; 
+}
+
+footer #copyright {
+    width: 230px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 18.25px;
+    margin-top: 140px;
+    margin-left: 122px;
+}
+
+footer .row-foot .right {
+    margin-top: 54px;
+    margin-left: 624px;
+}
+
+footer .row-foot .right .right-row1 {
+    margin-bottom: 3px;
+}
+
+footer .row-foot .right .right-row1 , footer .row-foot .right .right-row2 {
+    display: flex;
+}
+
+footer .row-foot .right .right-row1 #phone-logo {
+    display: inline;
+    height: 27px;
+}
+
+footer .row-foot .right .right-row1 #p-number {
+    width: 230px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 22px;
+    font-size: 25px;
+    line-height: 25.35px;
+}
+
+footer .row-foot .right .right-row2 #mail-logo {
+    display: inline;
+    height: 18px;
+    margin-top: 5px;
+}
+
+footer .row-foot .right .right-row2 #mail {
+    width: 269px;
+    height: 40px;
+    margin-left: 22px;
+    font-size: 25px;
+    line-height: 25.35px;
+}
+
+/* TABLET footer */
+@media screen and (min-width: 600px) and (max-width: 991.98px) {
+
+    footer {
+        width: 834px;
+        height: 225.88px;
+    }
+    footer .row-foot .left {
+        margin-top: 28.96px;
+        margin-left: 70.66px;
+    }
+    footer .row-foot .left #logo-footer {
+        width: 66.6px;
+        height: 39.38px;
+        margin-bottom: 17.38px;
+    }
+    footer .row-foot .left .left-row img {
+        width: 19px;
+        height: 19px;
+        margin-right: 10px; 
+    }
+    footer #copyright {
+        width: 133.21px;
+        height: 23.17px;
+        font-size: 10px;
+        line-height: 10.14px;
+        margin-top: 75px;
+        margin-left: 70.66px;
+    }
+    footer .row-foot .right {
+        margin-top: 31.28px;
+        margin-left: 361.4px;
+    }
+    footer .row-foot .right .right-row1 {
+        margin-bottom: 1.74px;
+    }
+    footer .row-foot .right .right-row1 #phone-logo {
+        width: 15.65px;
+        height: 15.65px;
+    }
+    footer .row-foot .right .right-row1 #p-number {
+        width: 133.21px;
+        height: 23.17px;
+        margin-top: 2.89px;
+        margin-left: 12.74px;
+        font-size: 14px;
+        line-height: 14.19px;
+    }
+    footer .row-foot .right .right-row2 #mail-logo {
+        width: 15.65px;
+        height: 10.44px;
+        margin-top: 3px;
+    }
+    footer .row-foot .right .right-row2 #mail {
+        width: 155.8px;
+        height: 23.17px;
+        margin-left: 12.74px;
+        font-size: 14px;
+        line-height: 14.19px;
+    }
+
+}
+
+/* MOBILE footer */
+@media screen and (max-width: 599.98px) {
+    
+    footer {
+        width: 375px;
+        height: 251px;
+    }
+    footer .row-foot {
+        display: block;
+        margin-left: 36px;
+    }
+    footer .row-foot .left {
+        margin-left: 0px;
+    }
+    footer .row-foot .left #logo-footer {
+        width: 53.6px;
+        height: 31.7px;
+        margin-top: 23.3px;
+        margin-bottom: 14px;
+    }
+    footer .row-foot .left .left-row img {
+        width: 15px;
+        height: 15px;
+        margin-right: 7px; 
+    }
+    
+    footer .row-foot .right {
+        margin-top: 48px;
+        margin-left: 0px;
+        width: 148.18px;
+        height: 41.01px;
+    }
+    footer .row-foot .right .right-row1 {
+        margin-bottom: 1.4px;
+    }
+    footer .row-foot .right .right-row1 #phone-logo {
+        width: 12.58px;
+        height: 12.58px;
+    }
+    footer .row-foot .right .right-row1 #p-number {
+        width: 107.17px;
+        height: 18.64px;
+        margin-top: 2.33px;
+        margin-left: 10.25px;
+        font-size: 12px;
+        line-height: 12.17px;
+    }
+    footer .row-foot .right .right-row2 #mail-logo {
+        width: 12.58px;
+        height: 8.39px;
+        margin-top: 2px;
+    }
+    footer .row-foot .right .right-row2 #mail {
+        width: 125.35px;
+        height: 18.64px;
+        margin-left: 10.25px;
+        font-size: 12px;
+        line-height: 12.17px;
+    }
+
+    footer #copyright {
+        width: 141px;
+        height: 19px;
+        font-size: 10px;
+        line-height: 10.14px;
+        margin-top: 40px;
+        margin-left: 36px;
+    }
+}
